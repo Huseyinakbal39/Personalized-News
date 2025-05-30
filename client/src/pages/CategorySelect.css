@@ -1,0 +1,56 @@
+.interests-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.categories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.category-box {
+  padding: 1rem 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+.category-box:hover {
+  background-color: #eaeaea;
+}
+
+.category-box.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.save-btn {
+  padding: 8px 12px;
+  width: fit-content;
+  min-width: 100px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+
+
+.save-btn:hover {
+  background-color: #218838;
+}

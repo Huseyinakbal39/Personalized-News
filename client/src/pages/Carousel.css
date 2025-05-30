@@ -1,0 +1,54 @@
+.carousel-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  font-size: 1.8rem; /* biraz küçültüldü */
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 8px;
+  margin: 0 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background: #f0f0f0;
+  color: #007bff;
+}
+
+.slide-box {
+  flex: 1;
+  max-width: 1000px; /* kart alanı sayfayı kaplasın */
+  margin: 0 10px;
+}
+
+.slide {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: left;
+}
+
+.slide-img {
+  width: 100%;
+  height: 450px; /* daha büyük foto */
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
