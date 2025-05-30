@@ -1,0 +1,16 @@
+{
+  "name": "newsfeed-root",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

@@ -1,4 +1,4 @@
-import mongoose, { connect } from "mongoose";
+import mongoose from "mongoose";
 
 const conn = () => {
     mongoose.connect(process.env.DB_URI,{
@@ -8,7 +8,7 @@ const conn = () => {
     }).then(()=> {
         console.log('DB Baglandi')
     }).catch((err)=>{
-        console.log('DB baglanti err:, ${err}')
+        console.log('DB baglanti err:',err.message)
     });
 }
 
